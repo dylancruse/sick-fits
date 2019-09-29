@@ -8,7 +8,6 @@ const Logo = styled.h1`
     position: relative;
     z-index: 2;
     transform: skew(-7deg);
-
     a {
         padding: 0.5rem 1rem;
         background-color: ${props => props.theme.red};
@@ -16,7 +15,6 @@ const Logo = styled.h1`
         text-transform: uppercase;
         text-decoration: none;
     }
-
     @media (max-width: 1300px) {
         margin: 0;
         text-align: center;
