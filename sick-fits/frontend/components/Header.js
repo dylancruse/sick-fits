@@ -1,6 +1,6 @@
-import Nav from './Nav';
-import Link from 'next/link';
 import styled from 'styled-components';
+import Link from 'next/link';
+import Nav from './Nav';
 
 const Logo = styled.h1`
     font-size: 4rem;
@@ -56,6 +56,5 @@ const Header = () => (
         <div>Cart</div>
     </StyledHeader>
 );
-
 
 export default Header;
