@@ -1,7 +1,7 @@
 {
   "name": "sick-fits-frontend",
   "version": "1.0.0",
-  "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
+  "description": "Sick Fits! An example React, GraphQL, Next and Apollo app",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
@@ -11,7 +11,7 @@
     "test-win": "SET NODE_ENV=test&& jest --watch",
     "heroku-postbuild": "next build"
   },
-  "author": "",
+  "author": "Dylan Cruse",
   "license": "ISC",
   "dependencies": {
     "apollo-boost": "^0.1.16",
