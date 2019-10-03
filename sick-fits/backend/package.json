@@ -8,7 +8,9 @@
     "test": "jest",
     "playground": "graphql playground --dotenv variables.env",
     "deploy": "prisma deploy --env-file variables.env",
-    "dev": "npm-run-all --parallel debug playground"
+    "dev": "npm-run-all --parallel debug playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
@@ -34,5 +36,24 @@
     "presets": [
       "env"
     ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2"
   }
 }
